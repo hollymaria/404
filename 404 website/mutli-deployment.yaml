@@ -1,0 +1,33 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: 404
+spec:
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 100%
+  selector:
+    matchLabels:
+      app: 404
+  template:
+    metadata:
+      labels:
+        app: 404
+    spec:
+      affinity:
+        # ⬇⬇⬇ This ensures pods will land on separate hosts
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions: [{ key: app, operator: In, values: [404] }]
+            topologyKey: "kubernetes.io/hostname"
+      containers:
+      - name: 404-from
+        image: pbitty/hello-from:latest
+        ports:
+          - name: http
+            containerPort: 8080
+      terminationGracePeriodSeconds: 10
