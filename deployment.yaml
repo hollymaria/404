@@ -29,5 +29,5 @@ spec:
         image: pbitty/hello-from:latest
         ports:
           - name: http
-            containerPort: 8080
+            containerPort: 8000
       terminationGracePeriodSeconds: 10

@@ -9,6 +9,6 @@ spec:
     app: hello
   ports:
     - protocol: TCP
-      nodePort: 80
-      port: 8080
+      nodePort: 8000
+      port: 8000
       targetPort: http 
