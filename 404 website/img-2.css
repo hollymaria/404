@@ -8,9 +8,8 @@
 /* nav bar */
   
 body {
-    
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(230,106,232,1) 0%, rgba(0,255,216,1) 100%);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(192,196,195,1) 0%, rgba(229,244,241,1) 100%);
 }
 
   a {
@@ -328,7 +327,7 @@ body {
     font-weight: 300;
     font-size: 4.5em;
     color: #402d2d;
-    margin-left: 590px;
+    margin-left: 570px;
     font-family: 'Glory', sans-serif;
   }
   
@@ -368,7 +367,7 @@ body {
   }
 
 img {
-    margin-left: 195px;
+    margin-left: 180px;
     float: left;
     width: 450px;
     height: 350px;

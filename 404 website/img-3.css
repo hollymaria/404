@@ -10,7 +10,7 @@
 /* nav bar */
   
 body {
-    background-color: white;
+    background-color:  rgba(192,196,195,1) 0%, rgba(229,244,241,1);
 }
 
   a {
@@ -328,12 +328,11 @@ body {
      font-size: 30px;
      font-family: 'Glory', sans-serif;
      margin-bottom: 40px;
-
-
   }
+
  /* START of BUTTONS */
 
-/* push button */
+/* esc button */
 
 body{
     text-align:center;
@@ -565,31 +564,31 @@ body{
 
   .foo a {
 	border-radius: 12px;
-	border: 3px outset #888;
+	border: 3px outset rgb(212, 211, 218);
 	position: relative;
 	display: inline-block;
 	padding: 15px 30px;
-	color: rgb(156, 226, 231);
+	color: rgb(236, 238, 238);
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	overflow: hidden;
 	margin-left: -1000px;
 	box-shadow: 0 0 10px rgb(133, 164, 221);
-	font-family: verdana;
+	font-family: 'Glory', sans-serif;
 	font-size: 28px;
 	font-weight: bolder;
 	text-decoration: none;
-	background:linear-gradient(160deg, rgb(114, 179, 184), rgb(109, 171, 173));
-	text-shadow: 0px 0px 2px rgba(105, 172, 248, 0.5);
+	background:linear-gradient(160deg, rgb(171, 215, 218), rgb(113, 170, 172));
+	text-shadow: 0px 0px 2px rgba(190, 195, 201, 0.5);
 	transition: 0.2s;
 
 }
 .foo a:active {
 	border: 3px outset #ddd;
 	color: #fff;
-	background: linear-gradient(160deg, rgb(23, 162, 172), rgb(31, 122, 197));
+	background: linear-gradient(160deg, rgb(85, 168, 173), rgb(190, 228, 240));
 	text-shadow: 0px 0px 4px #ccc;
-	box-shadow: 0 0 10px rgb(25, 211, 202), 0 0 40px rgb(25, 211, 202), 0 0 80px, rgb(25, 211, 202);
+	box-shadow: 0 0 10px rgb(108, 126, 125), 0 0 40px rgb(44, 114, 111), 0 0 80px, rgb(25, 211, 202);
 	transition-delay: 1s;
 }
 
@@ -626,7 +625,7 @@ body{
 	right: -100%;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(270deg, transparent,rgb(25, 211, 202));
+	background: linear-gradient(270deg, transparent,rgb(121, 189, 185));
 }
 .foo a:active span:nth-child(3) {
 	right: 100%;
@@ -652,7 +651,7 @@ body{
 
 .middle{
     position: absolute;
-    top: 52%;
+    top: 55%;
     left: 35%;
     transform: translate(-50%,-50%);
   }
@@ -692,8 +691,8 @@ body{
 
   /*this way*/
   .b7 {
-   padding-left: 730px;
-   margin-top: -65px;
+   padding-left: 720px;
+   margin-top: -60px;
   }
   .bn54 {
     position: relative;
@@ -706,10 +705,10 @@ body{
     cursor: pointer;
     text-transform: uppercase;
     height: 45px;
-    width: 130px;
+    width: 160px;
     opacity: 1;
     background-color: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(55, 175, 145, 0.6);
   }
   
   .bn54 .bn54span {
@@ -773,9 +772,9 @@ body{
   }
   .example_f {
     border-radius: 4px;
-    background: linear-gradient(to right, #a88aac, #59ad9f) !important;
+    background: linear-gradient(to right, #b67fbd, #ad8b59) !important;
     border: none;
-    color: #FFFFFF;
+    color: #fffdfd;
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
@@ -784,6 +783,7 @@ body{
     transition: all 0.4s;
     cursor: pointer;
     margin-left: 800px;
+    font-family: 'Glory', sans-serif;
   
   }
   .example_f span {
@@ -793,7 +793,7 @@ body{
     transition: 0.4s;
   }
   .example_f span:after {
-    content: '\00bb';
+    content: '💀';
     position: absolute;
     opacity: 0;
     top: 0;
