@@ -63,6 +63,7 @@ body {
     display: inline-block;
     float: right;
     list-style: none;
+    font-family: 'Glory', sans-serif;
     /* margin-right: 14px; */
     margin-top: -2px;
     text-align: right;

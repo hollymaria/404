@@ -61,6 +61,7 @@ body {
     list-style: none;
     /* margin-right: 14px; */
     margin-top: -2px;
+    font-family: 'Glory', sans-serif;
     text-align: right;
     transition: transform 0.5s ease-out;
     -webkit-transition: transform 0.5s ease-out;
